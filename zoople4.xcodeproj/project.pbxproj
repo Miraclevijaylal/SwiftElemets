@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9DBDC12C453AEC00D2F11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DBDC02C453AEC00D2F11F /* AppDelegate.swift */; };
+		FF9DBDC32C453AEC00D2F11F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DBDC22C453AEC00D2F11F /* SceneDelegate.swift */; };
+		FF9DBDC52C453AEC00D2F11F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DBDC42C453AEC00D2F11F /* ViewController.swift */; };
+		FF9DBDC82C453AEC00D2F11F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF9DBDC72C453AEC00D2F11F /* Base */; };
+		FF9DBDCA2C453AED00D2F11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DBDC92C453AED00D2F11F /* Assets.xcassets */; };
+		FF9DBDCD2C453AED00D2F11F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF9DBDCC2C453AED00D2F11F /* Base */; };
+		FF9DBDD82C453AED00D2F11F /* zoople4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DBDD72C453AED00D2F11F /* zoople4Tests.swift */; };
+		FF9DBDE22C453AED00D2F11F /* zoople4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DBDE12C453AED00D2F11F /* zoople4UITests.swift */; };
+		FF9DBDE42C453AED00D2F11F /* zoople4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DBDE32C453AED00D2F11F /* zoople4UITestsLaunchTests.swift */; };
+		FFD820522C4695BD00493924 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD820512C4695BC00493924 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9DBDD42C453AED00D2F11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DBDB52C453AEC00D2F11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DBDBC2C453AEC00D2F11F;
+			remoteInfo = zoople4;
+		};
+		FF9DBDDE2C453AED00D2F11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DBDB52C453AEC00D2F11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DBDBC2C453AEC00D2F11F;
+			remoteInfo = zoople4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF9DBDBD2C453AEC00D2F11F /* zoople4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoople4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DBDC02C453AEC00D2F11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF9DBDC22C453AEC00D2F11F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF9DBDC42C453AEC00D2F11F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF9DBDC72C453AEC00D2F11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9DBDC92C453AED00D2F11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9DBDCC2C453AED00D2F11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF9DBDCE2C453AED00D2F11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DBDD32C453AED00D2F11F /* zoople4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoople4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DBDD72C453AED00D2F11F /* zoople4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoople4Tests.swift; sourceTree = "<group>"; };
+		FF9DBDDD2C453AED00D2F11F /* zoople4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoople4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DBDE12C453AED00D2F11F /* zoople4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoople4UITests.swift; sourceTree = "<group>"; };
+		FF9DBDE32C453AED00D2F11F /* zoople4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoople4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFD820512C4695BC00493924 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9DBDBA2C453AEC00D2F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DBDD02C453AED00D2F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DBDDA2C453AED00D2F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9DBDB42C453AEC00D2F11F = {
+			isa = PBXGroup;
+			children = (
+				FF9DBDBF2C453AEC00D2F11F /* zoople4 */,
+				FF9DBDD62C453AED00D2F11F /* zoople4Tests */,
+				FF9DBDE02C453AED00D2F11F /* zoople4UITests */,
+				FF9DBDBE2C453AEC00D2F11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9DBDBE2C453AEC00D2F11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DBDBD2C453AEC00D2F11F /* zoople4.app */,
+				FF9DBDD32C453AED00D2F11F /* zoople4Tests.xctest */,
+				FF9DBDDD2C453AED00D2F11F /* zoople4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9DBDBF2C453AEC00D2F11F /* zoople4 */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DBDC02C453AEC00D2F11F /* AppDelegate.swift */,
+				FF9DBDC22C453AEC00D2F11F /* SceneDelegate.swift */,
+				FF9DBDC42C453AEC00D2F11F /* ViewController.swift */,
+				FFD820512C4695BC00493924 /* Home.swift */,
+				FF9DBDC62C453AEC00D2F11F /* Main.storyboard */,
+				FF9DBDC92C453AED00D2F11F /* Assets.xcassets */,
+				FF9DBDCB2C453AED00D2F11F /* LaunchScreen.storyboard */,
+				FF9DBDCE2C453AED00D2F11F /* Info.plist */,
+			);
+			path = zoople4;
+			sourceTree = "<group>";
+		};
+		FF9DBDD62C453AED00D2F11F /* zoople4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DBDD72C453AED00D2F11F /* zoople4Tests.swift */,
+			);
+			path = zoople4Tests;
+			sourceTree = "<group>";
+		};
+		FF9DBDE02C453AED00D2F11F /* zoople4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DBDE12C453AED00D2F11F /* zoople4UITests.swift */,
+				FF9DBDE32C453AED00D2F11F /* zoople4UITestsLaunchTests.swift */,
+			);
+			path = zoople4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9DBDBC2C453AEC00D2F11F /* zoople4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DBDE72C453AED00D2F11F /* Build configuration list for PBXNativeTarget "zoople4" */;
+			buildPhases = (
+				FF9DBDB92C453AEC00D2F11F /* Sources */,
+				FF9DBDBA2C453AEC00D2F11F /* Frameworks */,
+				FF9DBDBB2C453AEC00D2F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoople4;
+			productName = zoople4;
+			productReference = FF9DBDBD2C453AEC00D2F11F /* zoople4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9DBDD22C453AED00D2F11F /* zoople4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DBDEA2C453AED00D2F11F /* Build configuration list for PBXNativeTarget "zoople4Tests" */;
+			buildPhases = (
+				FF9DBDCF2C453AED00D2F11F /* Sources */,
+				FF9DBDD02C453AED00D2F11F /* Frameworks */,
+				FF9DBDD12C453AED00D2F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DBDD52C453AED00D2F11F /* PBXTargetDependency */,
+			);
+			name = zoople4Tests;
+			productName = zoople4Tests;
+			productReference = FF9DBDD32C453AED00D2F11F /* zoople4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF9DBDDC2C453AED00D2F11F /* zoople4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DBDED2C453AED00D2F11F /* Build configuration list for PBXNativeTarget "zoople4UITests" */;
+			buildPhases = (
+				FF9DBDD92C453AED00D2F11F /* Sources */,
+				FF9DBDDA2C453AED00D2F11F /* Frameworks */,
+				FF9DBDDB2C453AED00D2F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DBDDF2C453AED00D2F11F /* PBXTargetDependency */,
+			);
+			name = zoople4UITests;
+			productName = zoople4UITests;
+			productReference = FF9DBDDD2C453AED00D2F11F /* zoople4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9DBDB52C453AEC00D2F11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF9DBDBC2C453AEC00D2F11F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FF9DBDD22C453AED00D2F11F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FF9DBDBC2C453AEC00D2F11F;
+					};
+					FF9DBDDC2C453AED00D2F11F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FF9DBDBC2C453AEC00D2F11F;
+					};
+				};
+			};
+			buildConfigurationList = FF9DBDB82C453AEC00D2F11F /* Build configuration list for PBXProject "zoople4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9DBDB42C453AEC00D2F11F;
+			productRefGroup = FF9DBDBE2C453AEC00D2F11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9DBDBC2C453AEC00D2F11F /* zoople4 */,
+				FF9DBDD22C453AED00D2F11F /* zoople4Tests */,
+				FF9DBDDC2C453AED00D2F11F /* zoople4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9DBDBB2C453AEC00D2F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DBDCA2C453AED00D2F11F /* Assets.xcassets in Resources */,
+				FF9DBDCD2C453AED00D2F11F /* Base in Resources */,
+				FF9DBDC82C453AEC00D2F11F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DBDD12C453AED00D2F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DBDDB2C453AED00D2F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9DBDB92C453AEC00D2F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DBDC52C453AEC00D2F11F /* ViewController.swift in Sources */,
+				FF9DBDC12C453AEC00D2F11F /* AppDelegate.swift in Sources */,
+				FFD820522C4695BD00493924 /* Home.swift in Sources */,
+				FF9DBDC32C453AEC00D2F11F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DBDCF2C453AED00D2F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DBDD82C453AED00D2F11F /* zoople4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DBDD92C453AED00D2F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DBDE42C453AED00D2F11F /* zoople4UITestsLaunchTests.swift in Sources */,
+				FF9DBDE22C453AED00D2F11F /* zoople4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9DBDD52C453AED00D2F11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DBDBC2C453AEC00D2F11F /* zoople4 */;
+			targetProxy = FF9DBDD42C453AED00D2F11F /* PBXContainerItemProxy */;
+		};
+		FF9DBDDF2C453AED00D2F11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DBDBC2C453AEC00D2F11F /* zoople4 */;
+			targetProxy = FF9DBDDE2C453AED00D2F11F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9DBDC62C453AEC00D2F11F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9DBDC72C453AEC00D2F11F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9DBDCB2C453AED00D2F11F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9DBDCC2C453AED00D2F11F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9DBDE52C453AED00D2F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF9DBDE62C453AED00D2F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9DBDE82C453AED00D2F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zoople4/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.zoople4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF9DBDE92C453AED00D2F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zoople4/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.zoople4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF9DBDEB2C453AED00D2F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.zoople4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoople4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zoople4";
+			};
+			name = Debug;
+		};
+		FF9DBDEC2C453AED00D2F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.zoople4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoople4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zoople4";
+			};
+			name = Release;
+		};
+		FF9DBDEE2C453AED00D2F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.zoople4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zoople4;
+			};
+			name = Debug;
+		};
+		FF9DBDEF2C453AED00D2F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V4U7L99P9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chikku.hackingwithswift.zoople4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zoople4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9DBDB82C453AEC00D2F11F /* Build configuration list for PBXProject "zoople4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DBDE52C453AED00D2F11F /* Debug */,
+				FF9DBDE62C453AED00D2F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DBDE72C453AED00D2F11F /* Build configuration list for PBXNativeTarget "zoople4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DBDE82C453AED00D2F11F /* Debug */,
+				FF9DBDE92C453AED00D2F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DBDEA2C453AED00D2F11F /* Build configuration list for PBXNativeTarget "zoople4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DBDEB2C453AED00D2F11F /* Debug */,
+				FF9DBDEC2C453AED00D2F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DBDED2C453AED00D2F11F /* Build configuration list for PBXNativeTarget "zoople4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DBDEE2C453AED00D2F11F /* Debug */,
+				FF9DBDEF2C453AED00D2F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9DBDB52C453AEC00D2F11F /* Project object */;
+}
